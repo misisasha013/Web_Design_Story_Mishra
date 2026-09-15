@@ -33,14 +33,6 @@ input, button, textarea, select {
   font: inherit;
 }
 
-
-
-.unifrakturmaguntia-regular {
-  font-family: "UnifrakturMaguntia", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* 8. Avoid text overflows */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
@@ -80,7 +72,10 @@ p, h1, h2, h3, h4, h5, h6 {
   top: 334px;
   left: 860px;
   width: 278px;
-  padding: 0px 0px 64px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   font-family: "Vollkorn SC", Helvetica;
   color: #ffffff;
   font-size: 32px;
@@ -152,6 +147,9 @@ p, h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 1182px;
   height: 704px;
+  padding-bottom: 64px;
+  gap: 64px;
+  align-items: center;
   mix-blend-mode: hard-light;
 }
  
