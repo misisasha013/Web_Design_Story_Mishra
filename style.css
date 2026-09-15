@@ -32,6 +32,9 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+
+
+
 .unifrakturmaguntia-regular {
   font-family: "UnifrakturMaguntia", cursive;
   font-weight: 400;
@@ -72,11 +75,12 @@ p, h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
 }
  
-.desktop .text-wrapper {
+.desktop .author {
   position: absolute;
   top: 334px;
   left: 860px;
   width: 278px;
+  padding: 0px 0px 64px;
   font-family: "Vollkorn SC", Helvetica;
   color: #ffffff;
   font-size: 32px;
@@ -93,7 +97,8 @@ p, h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   -webkit-text-stroke: 2px #611114;
-  font-family: "UnifrakturManguntia", Helvetica;
+  /* font-family: "UnifrakturManguntia", cursive; */ 
+  font-family: "Vollkorn SC", Helvetica;
   color: #ffffff;
   font-size: 96px;
   text-align: center;
@@ -161,7 +166,7 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: justify;
 }
  
-.desktop .text-wrapper-2 {
+.desktop .end {
   position: relative;
   display: flex;
   align-items: center;
@@ -170,7 +175,8 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 29px;
   margin-left: -2px;
   -webkit-text-stroke: 2px #611114;
-  font-family: "UnifrakturManguntia", Helvetica;
+  /* font-family: "UnifrakturManguntia", cursive; */
+  font-family: "Vollkorn SC", Helvetica;
   color: #ffffff;
   font-size: 64px;
   text-align: center;
