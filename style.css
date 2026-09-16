@@ -67,36 +67,35 @@ p, h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
 }
  
-.desktop .author {
+.desktop .title-block {
   position: absolute;
-  top: 334px;
-  left: 860px;
-  width: 278px;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  top: 250px;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+ 
+.desktop .author {
   font-family: "Vollkorn SC", Helvetica;
   color: #ffffff;
   font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
   text-align: center;
 }
  
 .desktop .div {
-  position: absolute;
-  padding-bottom: 64px;
-  gap: 64 px;
-  top: 303px;
-  left: 227px;
-  width: 1046px;
-  height: 29px;
   display: flex;
   align-items: center;
   justify-content: center;
   -webkit-text-stroke: 2px #611114;
-  font-family: "UnifrakturManguntia", cursive;
+  font-family: "UnifrakturMaguntia", cursive;
   color: #ffffff;
   font-size: 96px;
+  line-height: normal;
   text-align: center;
   white-space: nowrap;
 }
@@ -106,12 +105,11 @@ p, h1, h2, h3, h4, h5, h6 {
   top: 778px;
   left: 141px;
   width: 1113px;
-  height: 300px;
   font-family: "Nova Cut", Helvetica;
   color: #000000;
   font-size: 20px;
-  text-align: justify;
   line-height: 30px;
+  text-align: justify;
 }
  
 .desktop .p-2 {
@@ -119,12 +117,11 @@ p, h1, h2, h3, h4, h5, h6 {
   top: 1040px;
   left: 141px;
   width: 1152px;
-  height: 1350px;
   font-family: "Nova Cut", Helvetica;
   color: #000000;
   font-size: 20px;
-  text-align: justify;
   line-height: 30px;
+  text-align: justify;
 }
  
 .desktop .theatre-masks {
@@ -142,6 +139,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: "Nova Cut", Helvetica;
   color: #ffffff;
   font-size: 20px;
+  line-height: normal;
   text-align: justify;
 }
  
@@ -149,9 +147,6 @@ p, h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 1182px;
   height: 704px;
-  padding-bottom: 64px;
-  gap: 64px;
-  align-items: center;
   mix-blend-mode: hard-light;
 }
  
@@ -162,6 +157,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: "Nova Cut", Helvetica;
   color: #ffffff;
   font-size: 20px;
+  line-height: normal;
   text-align: justify;
 }
  
@@ -174,12 +170,11 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 29px;
   margin-left: -2px;
   -webkit-text-stroke: 2px #611114;
-  font-family: "UnifrakturManguntia", cursive;
+  font-family: "UnifrakturMaguntia", cursive;
   color: #ffffff;
   font-size: 64px;
+  line-height: normal;
   text-align: center;
   white-space: nowrap;
 }
-
-
-
+ 
