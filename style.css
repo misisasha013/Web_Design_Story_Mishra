@@ -176,5 +176,32 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: normal;
   text-align: center;
   white-space: nowrap;
+
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 0px 0px 64px;
+  position: relative;
+  background-color: #000000;
+  overflow: hidden;
+}
+.foot .p-5 {
+  position: relative;
+  font-family: "Nova Cut", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: normal;
+  text-align: justify;
+}
+a{
+  position: relative;
+  font-family: "Nova Cut", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: normal;
+  text-align: justify;
 }
  
