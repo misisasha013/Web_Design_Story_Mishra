@@ -178,17 +178,7 @@ p, h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 
 }
-.foot {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 64px;
-  padding: 0px 0px 64px;
-  position: relative;
-  background-color: #000000;
-  overflow: hidden;
-}
- 
+
 .site-links{
   text-align:center;
   padding: 40px 0;
