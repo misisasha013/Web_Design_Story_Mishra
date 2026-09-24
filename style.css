@@ -188,20 +188,37 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #000000;
   overflow: hidden;
 }
-.foot .p-5 {
-  position: relative;
-  font-family: "Nova Cut", Helvetica;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: normal;
-  text-align: justify;
-}
-a{
-  position: relative;
-  font-family: "Nova Cut", Helvetica;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: normal;
-  text-align: justify;
-}
  
+.site-links{
+  text-align:center;
+  padding: 40px 0;
+  background-color: #000000;
+} 
+
+.site-links .p-5 {
+  padding: 20px;
+  min-width: 130px;
+  color: #E7DAC3;
+  text-decoration: none;
+  font-family: "Nova Cut", Helvetica;
+}
+.site-links .tail-links{
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.site-links .tail-link{
+  padding: 20px;
+  min-width: 130px;
+  border: 1px solid #E7DAC3;
+  color: #E7DAC3;
+  text-decoration: none;
+  font-family: "Nova Cut", Helvetica;
+
+}
+.site-links .tail-link:hover {
+  background: #E7DAC3;
+  color: #14100D;
+} 
