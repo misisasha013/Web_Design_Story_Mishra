@@ -41,149 +41,147 @@ p, h1, h2, h3, h4, h5, h6 {
 .desktop {
   display: flex;
   flex-direction: column;
-  height: 6837px;
+  height: auto;
+  min-height: 100vh;
   align-items: center;
-  gap: 64px;
-  padding: 0px 0px 64px;
+  gap: min(4.44vw, 64px);
+  padding: 0 0 min(4.44vw, 64px);
   position: relative;
   background-color: #000000;
   overflow: hidden;
 }
- 
+
 .desktop .group {
   position: relative;
-  width: 1444px;
-  height: 2575px;
-  margin-right: -4px;
+  width: 100%;
+  max-width: 1440px;
+  aspect-ratio: 1440 / 2575;
 }
- 
+
 .desktop .img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1440px;
-  height: 2575px;
-  aspect-ratio: 0.56;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
- 
+
 .desktop .title-block {
   position: absolute;
-  top: 250px;
+  top: 9.71%;
   left: 0;
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: min(2.78vw, 40px);
 }
- 
+
 .desktop .author {
   font-family: "Vollkorn SC", Helvetica;
   color: #ffffff;
-  font-size: 32px;
+  font-size: min(2.22vw, 32px);
   font-weight: 400;
   line-height: normal;
   text-align: center;
 }
- 
+
 .desktop .div {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-text-stroke: 2px #611114;
+  -webkit-text-stroke: min(0.14vw, 2px) #611114;
   font-family: "UnifrakturMaguntia", cursive;
   color: #ffffff;
-  font-size: 96px;
+  font-size: min(6.67vw, 96px);
   line-height: normal;
   text-align: center;
   white-space: nowrap;
 }
- 
+
 .desktop .p {
   position: absolute;
-  top: 778px;
-  left: 141px;
-  width: 1152px;
+  top: min(54.03vw, 778px);
+  left: max(9.79%, calc(50% - 579px));
+  width: min(80%, 1152px);
   font-family: "Nova Cut", Helvetica;
   color: #000000;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: min(1.39vw, 20px);
+  line-height: min(2.08vw, 30px);
   text-align: justify;
 }
- 
+
 .desktop .p-2 {
   position: absolute;
-  top: 1040px;
-  left: 141px;
-  width: 1152px;
+  top: min(72.22vw, 1040px);
+  left: max(9.79%, calc(50% - 579px));
+  width: min(80%, 1152px);
   font-family: "Nova Cut", Helvetica;
   color: #000000;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: min(1.39vw, 20px);
+  line-height: min(2.08vw, 30px);
   text-align: justify;
 }
- 
+
 .desktop .theatre-masks {
   position: relative;
-  width: 118px;
-  height: 118px;
+  width: clamp(64px, 8.19vw, 118px);
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
 }
- 
+
 .desktop .p-3 {
   position: relative;
-  width: 1189px;
-  height: 1824px;
+  width: min(1189px, 90%);
+  height: auto;
   font-family: "Nova Cut", Helvetica;
   color: #ffffff;
-  font-size: 20px;
+  font-size: clamp(16px, 1.39vw, 20px);
   line-height: normal;
   text-align: justify;
 }
- 
+
 .desktop .image {
   position: relative;
-  width: 1182px;
-  height: 704px;
+  width: min(1182px, 90%);
+  height: auto;
   mix-blend-mode: hard-light;
 }
- 
+
 .desktop .p-4 {
   position: relative;
-  width: 1152px;
-  height: 1153px;
+  width: min(1152px, 90%);
+  height: auto;
   font-family: "Nova Cut", Helvetica;
   color: #ffffff;
-  font-size: 20px;
+  font-size: clamp(16px, 1.39vw, 20px);
   line-height: normal;
   text-align: justify;
 }
- 
+
 .desktop .end {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: stretch;
-  height: 29px;
-  margin-left: -2px;
-  -webkit-text-stroke: 2px #611114;
+  height: auto;
+  -webkit-text-stroke: min(0.14vw, 2px) #611114;
   font-family: "UnifrakturMaguntia", cursive;
   color: #ffffff;
-  font-size: 64px;
+  font-size: clamp(36px, 4.44vw, 64px);
   line-height: normal;
   text-align: center;
   white-space: nowrap;
-
 }
 
-.site-links{
-  text-align:center;
+.site-links {
+  text-align: center;
   padding: 40px 0;
   background-color: #000000;
-} 
+}
 
 .site-links .p-5 {
   padding: 20px;
@@ -192,23 +190,63 @@ p, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   font-family: "Nova Cut", Helvetica;
 }
-.site-links .tail-links{
-  display:flex;
+
+.site-links .tail-links {
+  display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 10px;
 }
-.site-links .tail-link{
+
+.site-links .tail-link {
   padding: 20px;
   min-width: 130px;
   border: 1px solid #E7DAC3;
   color: #E7DAC3;
   text-decoration: none;
   font-family: "Nova Cut", Helvetica;
-
 }
+
 .site-links .tail-link:hover {
   background: #E7DAC3;
   color: #14100D;
-} 
+}
+
+@media (max-width: 768px) {
+  .desktop .author {
+    font-size: 20px;
+  }
+
+  .desktop .div {
+    font-size: 48px;
+    white-space: normal;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .desktop .p,
+  .desktop .p-2 {
+    position: static;
+    width: 90%;
+    color: #ffffff;
+  }
+
+  .desktop .p,
+  .desktop .p-2,
+  .desktop .p-3,
+  .desktop .p-4 {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .desktop .end {
+    white-space: normal;
+    -webkit-text-stroke-width: 1px;
+  }
+}
+/* 
+https://stackoverflow.com/questions/16617248/calc-of-max-or-max-of-calc-in-css, https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using, https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
+used these resources to help figure out how to write media queries and min/max/calc/clamp functions in css 
+*/
